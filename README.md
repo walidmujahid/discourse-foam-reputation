@@ -56,7 +56,7 @@ Integration with 3Box to provide SSO authentication: Profile data, storage, and 
 - [ ] 3box for Profile data
 - [ ] 3box for SSO
 - [ ] Tracking user reputation through FOAM API or and Blocklytics FOAM Map API
-- [ ] Location-based topics with possible integrations into Mapbox or OpenStreetMap
+- [ ] Location-based topics with possible Mapbox or OpenStreetMap integration
 
 
 ## <a name="ideas-log">Notes & Ideas Log</a>
