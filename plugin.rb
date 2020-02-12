@@ -10,6 +10,7 @@ gem 'http-accept', '>= 1.7.0'
 gem 'http-cookie', '>= 1.0.2'
 gem 'mime-types', '>= 1.16'
 gem 'netrc', '~> 0.8'
+gem 'rest-client', '2.1.0'
 
 require 'rest-client'
 
