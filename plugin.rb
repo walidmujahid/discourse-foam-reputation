@@ -4,8 +4,11 @@
 # authors: 
 # url: https://github.com/walidmujahid/discourse-foam-reputation
 
-require 'rest-client'
 
 gem 'rest-client', '2.1.0'
+
+
+require 'rest-client'
+
 
 enabled_site_setting :foam_reputation_enabled
