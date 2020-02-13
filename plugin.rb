@@ -5,7 +5,10 @@
 # url: https://github.com/walidmujahid/discourse-foam-reputation
 
 
-gem 'rest-client', '2.1.0'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
 gem 'http-accept', '1.7.0'
 gem 'http-cookie', '1.0.2'
 gem 'mime-types', '1.16'
