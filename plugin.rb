@@ -21,5 +21,14 @@ enabled_site_setting :foam_reputation_enabled
 
 after_initialize do
   require 'rest-client'
-
+  
+  
+  class FoamUser < ActiveRecord::Base
+    belongs_to :user
+    belongs_to :master_user, class_name: 'User'
+    
+    has_one :ethereum_address
+  end
+  
+  
 end
