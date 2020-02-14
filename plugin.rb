@@ -17,12 +17,9 @@ gem 'mime-types', '1.16'
 gem 'netrc', '0.8'
 gem 'rest-client', '2.1.0'
 
-
-require 'rest-client'
-
-
 enabled_site_setting :foam_reputation_enabled
 
 after_initialize do
-  
+  require 'rest-client'
+
 end
